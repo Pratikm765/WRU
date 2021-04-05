@@ -1,0 +1,94 @@
+.container {
+    background: black;
+    border-radius: 7px;
+    color: aliceblue;
+  }
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+  }
+
+  .settings-tray {
+    background: black;
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: aliceblue;
+  }
+  .settings-tray--right {
+    float: right;
+    color: aliceblue;
+  }
+  .input-wrapper {
+    background: black;
+    border-radius: 40px;
+  }
+  input{
+      background-color: black;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      color: aliceblue;
+      width: 75%;
+      border: transparent;
+      outline: none;
+      font-weight: 400;
+      margin-left: 20px;
+  }
+  .text {
+    margin-left: 12px;
+    width: 70%;
+  }
+  i {
+    margin-top: 10px;
+    font-size: 25px;
+    color: purple;
+    margin-left: 14px;
+    transition: .3s;
+  }
+  i:hover {
+    color: orangered;
+  }
+  .no-gutters {
+    padding: 0;
+  }
+  .search-box {
+    background:purple;
+    padding: 10px 13px;
+  }
+  .friend-drawer {
+    padding: 10px 15px;
+    display: flex;
+    vertical-align: baseline;
+    background: black;
+    transition: .3s ease;
+    margin-bottom: 19px;
+  }
+  .friend-drawer:hover {
+      background-color: purple;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+  .friend-drawer--grey {
+    border-bottom: 1px solid purple;
+    padding-bottom: 15px;
+  }
+  .time {
+    float: right;
+  }
+
+  hr {
+    margin: 5px auto;
+    width: 60%;
+    border-color: purple;
+  }
+  
+  .chat-bubble {
+    padding: 10px 14px;
+    background: black;
+    color: aliceblue;
+    border: 1px solid purple;
+    margin: 10px 30px;
+    border-radius: 9px;
+  }
+  

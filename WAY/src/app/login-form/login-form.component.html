@@ -1,0 +1,56 @@
+<div class="row1">
+
+    <div class="column1 temp1">
+    <form action="/action_page.php" class="form-container">
+        <h1>Login</h1>
+        <div class="form-group">
+          <label for="uname">User Name:</label><br/>
+          <input type="text" placeholder="Enter UserName" class="form-control" name="uname" [(ngModel)]="uname" required>
+        </div>
+        <div class="form-group">
+          <label for="Age">AGE:</label><br/>
+          <input type="number" placeholder="Enter Age" class="form-control" name="age" min="18" [(ngModel)]="age" required>
+        </div>
+        <div class="checkbox">
+            <label for="gender"><b>Gender</b></label> <br/> 
+            <form>
+              <input type="radio" name="gender" value="male" checked> Male<br>
+              <input type="radio" name="gender" value="female"> Female<br>
+              <input type="radio" name="gender" value="other"> Other
+            </form>
+        </div><br/>
+        <div class="form-group">
+                <label for="Profile" >Select Profile Picture:</label><br/>
+                <input id="fileInput"  type='file' (change)="onSelectFile($event)">
+        </div>
+        <br/><br/>
+
+        <button type="submit" class="btn btn-success .btn-block" (click)="login()">Login</button>
+        <button type="submit" class="btn cancel btn-danger .btn-block" (click)="closeForm()">Close</button>
+   
+      </form>
+    </div>    
+
+
+    <div class="column1 temp">
+            <img src="../../assets/logo.jpg"  height="240" width="210" style="margin-top: 20px; border-radius: 15px;border: 15px;border-color: black">
+            <p style="font-size: 50px"><strong> Start connecting with People....</strong> </p> 
+            <hr><br/>
+            <div class='bsdbox-wrap'>
+                    <ul class='bsdextend'>
+                      <li class='bsdbox-icon facebook '>
+                        <a href='https://www.facebook.com' target='_blank' title='Follow us on Facebook'><i class='fa fa-facebook fa-fw'></i>Follow Us</a>
+                      </li>
+                      <li class='bsdbox-icon twitter'>
+                        <a href='https://twitter.com' target='_blank' title='Follow us on Twitter'><i class='fa fa-twitter fa-fw'></i>Follow Us</a>
+                      </li>
+                      <li class='bsdbox-icon instagram'>
+                            <a href='https://instagram.com' rel='nofollow' target='_blank' title='Follow us on instagram'><i class='fa fa-instagram fa-fw'></i>Follow Us</a>
+                    </li>
+                    </ul>
+                  </div>
+            
+    </div>
+    
+</div>
+

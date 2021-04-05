@@ -1,0 +1,151 @@
+ *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+ }
+.column1 {
+    float: left;
+    
+}
+.row1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.temp {
+    background-color: purple;
+    width: 75%;
+    text-align: center;
+    color: black;
+    height: 100vh;
+
+}
+.temp:hover {
+    color: azure;
+}
+.temp1 {
+    width: 25%;
+    color: aliceblue;
+    height: 100vh;
+    background-color: black;
+
+}
+
+.form-container input[type=text], .form-container input[type=password], .form-container input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  border: black;
+  background: #f1f1f1;
+  max-width: 250px;
+  color: black;
+}
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+} 
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    
+    width: 100%;
+}
+
+.bsdbox-wrap {
+    display: block;
+    
+    position: relative;
+  }
+  
+  .bsdbox-wrap .bsdextend {
+    width: 100%;
+    display: block;
+  }
+  
+  .bsdextend {
+    text-align: center;
+    font-size: 17px
+  }
+  
+  .bsdextend .bsdbox-icon {
+    display: inline-block;
+    width: 32%;
+  }
+  
+  .bsdextend .bsdbox-icon a {
+    display: inline-block;
+    font-weight: 410;
+    color: #fefefe;
+    
+    line-height: 52px;
+    border-radius: 4px;
+    font-size: 11px;
+    width: 80%;
+  }
+  
+  .bsdextend .bsdbox-icon i {
+    font-family: fontawesome;
+    
+  }
+  
+  .bsdbox-icon.facebook a {
+    background: #3b5998
+  }
+  
+  .bsdbox-icon.twitter a {
+    background: #19bfe5
+  }
+  
+  .bsdbox-icon.circle a {
+    background-color: #d64136
+  }
+
+  .bsdbox-icon.instagram a {
+    background-color: palevioletred;
+  }
+  
+  .bsdbox-icon.facebook a:hover,
+  .bsdbox-icon.twitter a:hover,
+  .bsdbox-icon.circle a:hover,
+  .bsdbox-icon.instagram a:hover  {
+    background: #415471
+  }
+  
+  .extender .bsdbox-icon:hover a,
+  .extender .bsdbox-icon a:hover {
+    color: #fefefe;
+  }
+  a,
+a:visited {
+  color: #555;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:visited:hover {
+  color: #22a1c4;
+  text-decoration: none;
+}
+
+
+
+  
